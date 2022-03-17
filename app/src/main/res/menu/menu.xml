@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav1"
+        android:icon="@drawable/ic_report_new"
+        android:title="Book Vaccine"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav2"
+        android:icon="@drawable/ic_book_vaccine"
+        android:title="Book Vaccine"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_3_dots"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/add"
+
+                android:title="Add student"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/bulk_add"
+
+                android:title="Bulk add"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/view"
+
+                android:title="View"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
